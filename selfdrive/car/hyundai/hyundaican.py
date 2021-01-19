@@ -45,7 +45,7 @@ def create_lkas11(packer, frame, car_fingerprint, apply_steer, steer_req,
   elif car_fingerprint == CAR.OPTIMA:
     values["CF_Lkas_LdwsActivemode"] = 0
 
-  elif car_fingerprint == CAR.K7:
+  elif car_fingerprint == CAR.CARDENZA:
     values["CF_Lkas_LdwsActivemode"] = 2
 #    values["CF_Lkas_SysWarning"] = lkas11["CF_Lkas_SysWarning"]    
 #    values["CF_Lkas_Bca_R"] = 0
