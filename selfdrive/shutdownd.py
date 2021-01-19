@@ -47,7 +47,7 @@ def main(gctx=None):
 
 def get_shutdown_val():
 
-  return int(300)#깃풀시험
+  return int(600)#깃풀시험
 
 
 if __name__ == "__main__":
